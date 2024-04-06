@@ -1,6 +1,6 @@
 # ApolloHiltGraphQL
 
-The List of notes is shown 
+Navigation compose of three lists of graphql
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -17,7 +17,7 @@ The List of notes is shown
   <h3 align="center">ApolloHiltGraphQl</h3>
 
   <p align="center">
-   Clean architecture using MVVM , Hilt and Jetpack Compose  and Apllo (GraphQl) in Kotlin!
+   Clean architecture using MVVM , Hilt and Jetpack Compose,  and Apllo (GraphQl) in Kotlin!
     <br />
    
    
@@ -36,8 +36,8 @@ The List of notes is shown
 
 
 
-In this Application is shown three different lists with navigaction compose when clicking on a specific item can show some details.
-A new Note can be added with the date.
+In this Application is shown three different lists with navigaction compose when clicking on a specific item that can show some details.
+
 
 
 Which technology:
@@ -59,13 +59,13 @@ Which technology:
 * [MVVM](https://developer.android.com/jetpack/guide)  
 * [Hilt](https://developer.android.com/codelabs/android-hilt#6)
 * [Jetpack Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state#0)
-*[Apllo Kotlin] (https://www.apollographql.com/docs/kotlin/)
+* [Apllo Kotlin](https://www.apollographql.com/docs/kotlin/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-##Documentation of Qraphql
+Documentation of Qraphql
 
 To add Qraphql need to have below steps :
 
