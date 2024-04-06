@@ -1,6 +1,6 @@
 # ApolloHiltGraphQL
 
-Navigation compose of three lists of graphql
+Navigation compose of three lists with graphql
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
