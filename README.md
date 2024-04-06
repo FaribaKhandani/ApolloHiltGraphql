@@ -69,8 +69,8 @@ Which technology:
 
 To add Qraphql need to have below steps :
 
-1. adding the below dependency in  ```sh build.gradle  ```
-     ```sh
+1. adding the below dependency in  ``` build.gradle  ```
+     ```
  plugins {
   id("com.apollographql.apollo3").version("3.8.3")
 }
@@ -83,6 +83,7 @@ plugins {
 apollo {
   service("service") {
     packageName.set("com.example")
+    
    ```
 
 
