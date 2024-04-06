@@ -71,7 +71,7 @@ To add Qraphql need to have below steps :
 
 1. adding the below dependency in build.gradle 
   
- ``` plugins {
+ ```sh plugins {
   id("com.apollographql.apollo3").version("3.8.3")
 }
 
@@ -83,11 +83,12 @@ To add Qraphql need to have below steps :
  apollo {
   service("service") {
     packageName.set("com.example")
+```
 
+2.File ->Setting ->Plugins -> search and install GraphQL plugin
 
+3.
 
-
-2. 
 
 <!-- GETTING STARTED -->
 ## Getting Started
