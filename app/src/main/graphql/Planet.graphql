@@ -1,0 +1,12 @@
+query Planet ($planet_id:ID!) {
+    planet (id: $planet_id){
+        id
+        name
+        gravity
+        population
+        rotationPeriod
+        orbitalPeriod
+        edited
+        created
+    }
+}

@@ -1,0 +1,11 @@
+query StarShip ($starship_id:ID!){
+    starship (id: $starship_id){
+        id
+        name
+        model
+        edited
+        created
+        crew
+        passengers
+    }
+}
