@@ -71,23 +71,26 @@ To add Qraphql need to have below steps :
 
 1. adding the below dependency in build.gradle 
   
- ```sh plugins {
-  id("com.apollographql.apollo3").version("3.8.3")
-}
+ ```sh    plugins {
+  id("com.apollographql.apollo3").version("3.8.3")}
 
 
-  plugins {
-  id("com.apollographql.apollo3").version("3.8.3")
+ dependencies {
+  implementation("com.apollographql.apollo3:apollo-runtime:3.8.3")
 }  
 
  apollo {
   service("service") {
-    packageName.set("com.example")
+    packageName.set("com.example")}}
 ```
 
-2.File ->Setting ->Plugins -> search and install GraphQL plugin
+2.in Android studio go to File ->Setting ->Plugins -> search and install GraphQL plugin
 
-3.
+3. go to the terminal of android studio and paste the below link
+" ./gradlew downloadApolloSchema --endpoint="your qraphql link " --schema=app/src/
+main/graphql/schema.graphqls  "
+
+
 
 
 <!-- GETTING STARTED -->
