@@ -6,6 +6,9 @@ The List of notes is shown
 
 
 
+
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -60,6 +63,27 @@ Which technology:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
+##Documentation of Qraphql
+
+To add Qraphql need to have below steps :
+
+1. adding the below dependency in  ```sh build.gradle  ```
+     ```sh
+ plugins {
+  id("com.apollographql.apollo3").version("3.8.3")
+}
+
+
+plugins {
+  id("com.apollographql.apollo3").version("3.8.3")
+}
+
+apollo {
+  service("service") {
+    packageName.set("com.example")
+   ```
 
 
 <!-- GETTING STARTED -->
